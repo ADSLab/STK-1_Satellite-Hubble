@@ -1,0 +1,13 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.2.1">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Hubble_space_telescope AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Hubble_space_telescope" Type = "IntervalList">
+                <Interval Name = "Hubble_space_telescope AvailabilityIntervals" StartTime = "11 Sep 2017 19:00:00.000" StopTime = "18 Sep 2017 19:00:00.000" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Hubble_space_telescope" GlobalStartOffset = "0.000000" GlobalStartTime = "11 Sep 2017 19:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "18 Sep 2017 19:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
