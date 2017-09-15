@@ -12,7 +12,7 @@ ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
 WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAPPPPPPPPPPPPPPPPAAAAAAAACAAAAAAAAFFAAAAAGDDAAAAA
-Title=Hubble_space_telescope - STK 11 - 3D Graphics 1 - Earth
+Title=Hubble_space_telescope - STK 11 - Object Browser
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
@@ -25,7 +25,7 @@ DocPathName=C:\Users\jtdotzler\Documents\STK 11 (x64)\STK-1_Satellite-Hubble\AgU
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
 WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPGPPPPPPPPNPPPPPPAAAAAAAAAAAAAAAAKEDAAAAAJLCAAAAA
-IsActiveChildFrame=True
+IsActiveChildFrame=False
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]
