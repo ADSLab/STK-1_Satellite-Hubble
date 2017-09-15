@@ -1792,6 +1792,12 @@ END Extensions
 
 BEGIN SubObjects
 
+Class Place
+
+	University_of_Arizona_AZ
+
+END Class
+
 Class Satellite
 
 	HubbleSpaceTelescope
@@ -1803,6 +1809,9 @@ END SubObjects
 BEGIN References
     Instance *
         *
+    END Instance
+    Instance Place/University_of_Arizona_AZ
+        Place/University_of_Arizona_AZ
     END Instance
     Instance Satellite/HubbleSpaceTelescope
         Satellite/HubbleSpaceTelescope
