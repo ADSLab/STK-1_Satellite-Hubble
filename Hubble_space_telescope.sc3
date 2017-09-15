@@ -207,52 +207,6 @@ VO_V110
 
             Begin Globe
 AA Yes
-BeginCentralBody "Sun"
-    Show Yes
-    Textured No
-    AltOffset 0.000000
-    Color #ffff00
-    SpecularColor #545454
-    Shininess 40.000000
-    ShowWater No
-    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-        BlendMode Value
-        BlendFactor 1.000000
-        BlendAltitudeLowerFactor 1.000000
-        BlendAltitudeUpperFactor 0.000000
-        BlendAltitudeLowerAltitude 500000.000000
-        BlendAltitudeUpperAltitude 2500000.000000
-        TextureRole Day
-        URI "file:///Sun.jp2"
-        BeginImageSetDefOn
-        End
-        InBase Yes
-        BaseOn Yes
-    End
-EndCentralBody
-BeginCentralBody "Moon"
-    Show Yes
-    Textured Yes
-    AltOffset 0.000000
-    Color #ffffff
-    SpecularColor #545454
-    Shininess 40.000000
-    ShowWater No
-    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-        BlendMode Value
-        BlendFactor 1.000000
-        BlendAltitudeLowerFactor 1.000000
-        BlendAltitudeUpperFactor 0.000000
-        BlendAltitudeLowerAltitude 500000.000000
-        BlendAltitudeUpperAltitude 2500000.000000
-        TextureRole Day
-        URI "file:///Moon.jp2"
-        BeginImageSetDefOn
-        End
-        InBase Yes
-        BaseOn Yes
-    End
-EndCentralBody
 BeginCentralBody "Earth"
     Show Yes
     Textured Yes
@@ -293,6 +247,52 @@ BeginCentralBody "Earth"
         BlendAltitudeLowerAltitude 500000.000000
         BlendAltitudeUpperAltitude 2500000.000000
         URI "virtual_earth://virtualearth.net/Aerial.ve"
+        BeginImageSetDefOn
+        End
+        InBase Yes
+        BaseOn Yes
+    End
+EndCentralBody
+BeginCentralBody "Sun"
+    Show Yes
+    Textured No
+    AltOffset 0.000000
+    Color #ffff00
+    SpecularColor #545454
+    Shininess 40.000000
+    ShowWater No
+    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+        BlendMode Value
+        BlendFactor 1.000000
+        BlendAltitudeLowerFactor 1.000000
+        BlendAltitudeUpperFactor 0.000000
+        BlendAltitudeLowerAltitude 500000.000000
+        BlendAltitudeUpperAltitude 2500000.000000
+        TextureRole Day
+        URI "file:///Sun.jp2"
+        BeginImageSetDefOn
+        End
+        InBase Yes
+        BaseOn Yes
+    End
+EndCentralBody
+BeginCentralBody "Moon"
+    Show Yes
+    Textured Yes
+    AltOffset 0.000000
+    Color #ffffff
+    SpecularColor #545454
+    Shininess 40.000000
+    ShowWater No
+    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+        BlendMode Value
+        BlendFactor 1.000000
+        BlendAltitudeLowerFactor 1.000000
+        BlendAltitudeUpperFactor 0.000000
+        BlendAltitudeLowerAltitude 500000.000000
+        BlendAltitudeUpperAltitude 2500000.000000
+        TextureRole Day
+        URI "file:///Moon.jp2"
         BeginImageSetDefOn
         End
         InBase Yes
@@ -381,16 +381,16 @@ EndCentralBody
             End
             Begin CentralBodyOpts
                 BeginCentralBody
+                    Name "Earth"
+                    ShowLabel No
+                EndCentralBody
+                BeginCentralBody
                     Name "Sun"
                     ShowLabel No
                 EndCentralBody
                 BeginCentralBody
                     Name "Moon"
                     ShowLabel Yes
-                EndCentralBody
-                BeginCentralBody
-                    Name "Earth"
-                    ShowLabel No
                 EndCentralBody
             End CentralBodyOpts
             isShowingOverlay            Yes
@@ -725,9 +725,9 @@ EndCentralBody
                 UseLayer                Yes
                 FromName                "Earth"
                 FromRegPosAttView       "Point"
-                FromPosition            -22427231.482088524848222733  310123.911587244656402618  7929106.371095484122633934
-                FromOffset              -22427231.482088524848222733  310123.911587244656402618  7929106.371095484122633934
-                FromOffsetLLR           0.339802215907171135  3.127765527961388958  23789653.562754288315773010
+                FromPosition            -23696865.932561226189136505  345011.462818924977909774  2070538.263498547021299601
+                FromOffset              -23696865.932561226189136505  345011.462818924977909774  2070538.263498547021299601
+                FromOffsetLLR           0.087145502560056223  3.127034311194087923  23789653.562754310667514801
                 ToName                  "Earth"
                 ToRegPosAttView         "Point"
                 ToPosition              0.000000000000000000  0.000000000000000000  0.000000000000000000
@@ -735,9 +735,9 @@ EndCentralBody
                 ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
                 ConstantDistanceType    None
                 ConstantDistanceValue   1.000000
-                UpVector                0.333268762476955582  -0.004608442745674508  0.942820605530309108
-                ViewRad                 23789653.562754288315773010
-                ViewQuat                0.9855779 0.0011690 0.1690808 -0.0068140
+                UpVector                0.087026019166336163  -0.001267044100318301  0.996205233165992077
+                ViewRad                 23789653.562754303216934204
+                ViewQuat                0.9990244 0.0003171 0.0435578 -0.0072722
                 ViewCoordSystem         From
                 ViewFromToMode          FromTo
                 ViewToCBIMtx            1.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000 1.000000000000000000 0.000000000000000000  0.000000000000000000 0.000000000000000000 1.000000000000000000
@@ -751,7 +751,7 @@ EndCentralBody
                 MinAngleToUpAxis        0.0087266
                 InitUpAxisUp            Yes
                 TempUpAxisUp            Yes
-                CrossAxis               0.0138267 0.9999044 -0.0000000
+                CrossAxis               0.0145578 0.9998940 -0.0000000
                 DefaultOffset           35079753.5000000
                 BaseDefaultOffset       6378137.0000000
             End View

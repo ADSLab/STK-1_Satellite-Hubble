@@ -1794,7 +1794,7 @@ BEGIN SubObjects
 
 Class Satellite
 
-	HubbleSpaceTelescope
+	HubbleSpaceTelescope_Astronomy
 
 END Class
 
@@ -1804,8 +1804,8 @@ BEGIN References
     Instance *
         *
     END Instance
-    Instance Satellite/HubbleSpaceTelescope
-        Satellite/HubbleSpaceTelescope
+    Instance Satellite/HubbleSpaceTelescope_Astronomy
+        Satellite/HubbleSpaceTelescope_Astronomy
     END Instance
 END References
 
